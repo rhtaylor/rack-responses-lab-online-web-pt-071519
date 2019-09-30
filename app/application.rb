@@ -4,6 +4,6 @@ class Application
   def call(env)
     x = time.now
     binding.pry
-    env.x
+    puts 'go'
   end
 end
