@@ -3,7 +3,8 @@ class Application
 
   def call(env)
     resp = Rack::Response.new
-    x = Time.now
+    x = Time.now 
+    binding.pry
     if x >= 12
     resp.write 'Afternoon'
   else resp.write 'Morning'
