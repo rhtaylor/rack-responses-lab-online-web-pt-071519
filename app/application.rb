@@ -1,6 +1,6 @@
 class Application
 
-  def call(env)  
+  def call(env)
     binding.pry
-  end 
+  end
 end
