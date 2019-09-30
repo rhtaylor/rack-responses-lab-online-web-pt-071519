@@ -2,7 +2,7 @@ require 'pry'
 class Application
 
   def call(env)
-    x = time.now
+    x = Time.now
     binding.pry
     resp.write 'go'
   end
