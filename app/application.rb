@@ -5,7 +5,7 @@ class Application
     resp = Rack::Response.new
     x = Time.now
     binding.pry
-    if x >= 12
+    if x >= 12.00
     resp.write 'Afternoon'
   else resp.write 'Morning'
   end
